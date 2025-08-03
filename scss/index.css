@@ -541,7 +541,7 @@ main .cont .pro .project-card .card-content h3 {
 main .cont .pro .project-card .card-content .view-site-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #000;
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
@@ -549,11 +549,13 @@ main .cont .pro .project-card .card-content .view-site-btn {
   font-weight: 500;
   transition: all 0.3s ease;
   margin-top: 10px;
+  border: 2px solid #000;
 }
 main .cont .pro .project-card .card-content .view-site-btn:hover {
-  background-color: #0056b3;
+  background-color: #fff;
+  color: #000;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 main .cont .pro .project-card .card-content .tech-tags {
   margin-top: 15px;
